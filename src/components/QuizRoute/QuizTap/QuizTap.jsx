@@ -13,12 +13,12 @@ export default function QuizTap() {
     return (
       <>
         <div className="max-w-[100%] mx-auto py-[20px] lg:py-[50px] my-[50px]">
-          <div className="w-[90%] mx-auto grid grid-cols-1">
+          <div className="w-[90%] mx-auto grid grid-cols-1 ">
             <Tabs defaultValue={0} orientation="vertical">
-              <div className=" grid grid-cols-4 gap-14">
-                <div className="h-fit col-span-4 md:col-span-2 lg:col-span-1 border py-5 px-2 rounded-xl">
+              <div className=" grid grid-cols-4 gap-14 h-fit">
+                <div className="h-fit col-span-4 md:col-span-2 lg:col-span-1 border shadow-lg py-5 px-2 rounded-xl">
                   <TabsList
-                    className="w-[100%] flex flex-col gap-5 py-7 px-3 bg-white rounded-lg h-[100%]"
+                    className="w-[100%] flex flex-col gap-5 py-7 px-3 bg-white rounded-lg"
                     id="certi"
                   >
                     <div className=" flex items-center justify-center pb-3">

@@ -13,7 +13,7 @@ const JeeMainCard = () => {
             <div className="w-[90%] mx-auto grid grid-cols-1 gap-5">
                 <Tabs defaultValue={0} orientation="vertical">
                 <div className=" pb-5">
-                    <div className=" py-5 rounded-xl bg-white border-gray-200 border shadow-md">
+                    <div className=" py-5 rounded-xl px-5 bg-white border-gray-200 border shadow-md">
                         <TabsList
                             className="flex  gap-5"
                             id="certi"
@@ -31,7 +31,7 @@ const JeeMainCard = () => {
                                 }),
                             }}
                             >
-                            <div className=""><GraduationCap color="black"></GraduationCap></div>Physics
+                            <div className=""><GraduationCap color="black"></GraduationCap></div>2018 
                             </Tab>
                             <hr />
                             <Tab
@@ -47,7 +47,7 @@ const JeeMainCard = () => {
                                 }),
                             }}
                             >
-                            <div><img src={coursetab1} alt="icon" className="w-[24px]"/></div>Maths 
+                            <div><img src={coursetab1} alt="icon" className="w-[24px]"/></div>2019 
                             </Tab>
                         </TabsList>
                     </div>

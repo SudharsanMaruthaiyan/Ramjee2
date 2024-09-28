@@ -4,35 +4,39 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import AnimatedCursor from "react-animated-cursor";
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(false);
   return (
     <>
       <div className="3xl:container mx-auto bg-white shadow-md z-50 fixed top-0 w-full">
-      <AnimatedCursor  innerSize={10}
-            outerSize={10}
-            color='193, 11, 111'
-            outerAlpha={0.2}
-            innerScale={0.7}
-            outerScale={5}
-            clickables={[
-                'a',
-                'input[type="text"]',
-                'input[type="email"]',
-                'input[type="number"]',
-                'input[type="submit"]',
-                'input[type="image"]',
-                'label[for]',
-                'select',
-                'textarea',
-                'button',
-                '.link'
-        ]}/>
+        <AnimatedCursor
+          innerSize={10}
+          outerSize={10}
+          color="193, 11, 111"
+          outerAlpha={0.2}
+          innerScale={0.7}
+          outerScale={5}
+          clickables={[
+            "a",
+            'input[type="text"]',
+            'input[type="email"]',
+            'input[type="number"]',
+            'input[type="submit"]',
+            'input[type="image"]',
+            "label[for]",
+            "select",
+            "textarea",
+            "button",
+            ".link",
+          ]}
+        />
         <div className=" w-[90%] grid grid-cols-2 lg:grid-cols-3 mx-auto my-5 items-center justify-between sticky top-0">
           <div className="">
-            <img src={navlogo} alt="logo" width={100} />
+            <Link to={"/"}>
+              <img src={navlogo} alt="logo" width={100} />
+            </Link>
           </div>
           <div className="flex items-center justify-end lg:col-span-2">
-            <div className={`lg:block ${toggle?'block ' :' hidden'}`}>
+            <div className={`lg:block ${toggle ? "block " : " hidden"}`}>
               <div className=" lg:flex gap-20 absolute -left-6 md:-left-10 top-20 lg:static bg-white w-[115%] md:w-[118%] lg:mt-0 -mt-6 z-50 ">
                 <div>
                   <ul className=" lg:flex lg:gap-9 space-y-3 lg:space-y-0 items-center justify-center ">
@@ -55,15 +59,19 @@ const Navbar = () => {
                       <Link to={"/Blog"}>Blog</Link>
                     </li> */}
                     <li className="text-[16px] font-bold font-[Poppins] p-2 text-center lg:p-0  px-3 py-2 rounded-lg flex items-center  text-white justify-center">
-                      <button className="bg-blue-500 px-8 py-2 hover:bg-white border border-[#1176F0] hover:text-[#1176F0] rounded-full font-[Poppins] font-bold text-white ">Log in </button>
+                      <button className="bg-blue-500 px-8 py-2 hover:bg-white border border-[#1176F0] hover:text-[#1176F0] rounded-full font-[Poppins] font-bold text-white ">
+                        Log in{" "}
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <Menu className={`block lg:hidden`} onClick={()=>{
-              setToggle(!toggle)
-            }} 
+            <Menu
+              className={`block lg:hidden`}
+              onClick={() => {
+                setToggle(!toggle);
+              }}
             ></Menu>
           </div>
         </div>

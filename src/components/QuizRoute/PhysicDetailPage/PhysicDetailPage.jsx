@@ -42,8 +42,8 @@ const PhysicDetailPage = () => {
                                 <img src={pop1} alt="" />
                             </div>
                             <div>
-                                <p className="font-[Poppins] text-[18px] font-medium text-center">Art & Design</p>
-                                <p className="font-[Poppins] text-base text-center">15 Courses</p>
+                                <p className="font-[Poppins] text-[18px] font-medium text-center">Physics 2018</p>
+                                <p className="font-[Poppins] text-base text-center">Electric Charges and Fields</p>
                             </div>
                         </div>
                         <div  className="pl-5 pr-7 py-10 flex flex-col gap-5 border-2 rounded-lg hover:shadow-[0px_30px_50px_0px_#000f381a] hover:border-t-blue-700 hover:border-t-2 transition items-center hover:-translate-y-2">
@@ -52,7 +52,7 @@ const PhysicDetailPage = () => {
                             </div>
                             <div>
                                 <p className="font-[Poppins] text-[18px] font-medium text-center">Art & Design</p>
-                                <p className="font-[Poppins] text-base text-center">15 Courses</p>
+                                <p className="font-[Poppins] text-base text-center">Electrostatic Potential and Capacitance</p>
                             </div>
                         </div>
                         <div  className="pl-5 pr-7 py-10 flex flex-col gap-5 border-2 rounded-lg hover:shadow-[0px_30px_50px_0px_#000f381a] hover:border-t-blue-700 hover:border-t-2 transition items-center hover:-translate-y-2">
@@ -61,7 +61,7 @@ const PhysicDetailPage = () => {
                         </div>
                         <div>
                             <p className="font-[Poppins] text-[18px] font-medium text-center">Art & Design</p>
-                            <p className="font-[Poppins] text-base text-center">15 Courses</p>
+                            <p className="font-[Poppins] text-base text-center">Current Electricity</p>
                         </div>
                         </div>
                         <div  className="pl-5 pr-7 py-10 flex flex-col gap-5 border-2 rounded-lg hover:shadow-[0px_30px_50px_0px_#000f381a] hover:border-t-blue-700 hover:border-t-2 transition items-center hover:-translate-y-2">
@@ -70,7 +70,7 @@ const PhysicDetailPage = () => {
                         </div>
                         <div>
                             <p className="font-[Poppins] text-[18px] font-medium text-center">Art & Design</p>
-                            <p className="font-[Poppins] text-base text-center">15 Courses</p>
+                            <p className="font-[Poppins] text-base text-center">Moving Charges and Magnetism</p>
                         </div>
                         </div>
                         <div className="pl-5 pr-7 py-10 flex flex-col gap-5 border-2 rounded-lg hover:shadow-[0px_30px_50px_0px_#000f381a] hover:border-t-blue-700 hover:border-t-2 transition items-center hover:-translate-y-2">
@@ -79,7 +79,7 @@ const PhysicDetailPage = () => {
                         </div>
                         <div>
                             <p className="font-[Poppins] text-[18px] font-medium text-center">Art & Design</p>
-                            <p className="font-[Poppins] text-base text-center">15 Courses</p>
+                            <p className="font-[Poppins] text-base text-center">Magnetism and Matter</p>
                         </div>
                         </div>
                         <div  className="pl-5 pr-7 py-10 flex flex-col gap-5 border-2 rounded-lg hover:shadow-[0px_30px_50px_0px_#000f381a] hover:border-t-blue-700 hover:border-t-2 transition items-center hover:-translate-y-2">
@@ -88,7 +88,7 @@ const PhysicDetailPage = () => {
                         </div>
                         <div>
                             <p className="font-[Poppins] text-[18px] font-medium text-center">Art & Design</p>
-                            <p className="font-[Poppins] text-base text-center">15 Courses</p>
+                            <p className="font-[Poppins] text-base text-center">Electromagnetic Induction</p>
                         </div>
                         </div>
                         <div  className="pl-5 pr-7 py-10 flex flex-col gap-5 border-2 rounded-lg hover:shadow-[0px_30px_50px_0px_#000f381a] hover:border-t-blue-700 hover:border-t-2 transition items-center hover:-translate-y-2">
@@ -97,7 +97,7 @@ const PhysicDetailPage = () => {
                         </div>
                         <div>
                             <p className="font-[Poppins] text-[18px] font-medium text-center">Art & Design</p>
-                            <p className="font-[Poppins] text-base text-center">15 Courses</p>
+                            <p className="font-[Poppins] text-base text-center">Alternating Current</p>
                         </div>
                         </div>
                         <div  className="pl-5 pr-7 py-10 flex flex-col gap-5 border-2 rounded-lg hover:shadow-[0px_30px_50px_0px_#000f381a] hover:border-t-blue-700 hover:border-t-2 transition items-center hover:-translate-y-2">
@@ -106,7 +106,7 @@ const PhysicDetailPage = () => {
                         </div>
                         <div>
                             <p className="font-[Poppins] text-[18px] font-medium text-center">Art & Design</p>
-                            <p className="font-[Poppins] text-base text-center">15 Courses</p>
+                            <p className="font-[Poppins] text-base text-center">Electromagnetic Waves</p>
                         </div>
                         </div>
                     </div>

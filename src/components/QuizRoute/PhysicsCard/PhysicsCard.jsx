@@ -14,7 +14,7 @@ const PhysicsCard = () => {
                 </div>
                 
                 <div>
-                    <p className="font-[Poppins] text-[18px] lg:text-[24px] text-[#222]">Request Info</p>
+                    <p className="font-[Poppins] text-[18px] lg:text-[24px] text-[#222]">Physics</p>
                 </div>
                 <div>
                     <p className="font-[Poppins] text-gray-600 ">Penatibus Et Magnis Dis<br /> Parturient</p>
@@ -36,7 +36,7 @@ const PhysicsCard = () => {
                 </div>
                 
                 <div>
-                    <p className="font-[Poppins] text-[18px] lg:text-[24px] text-[#222]">Request Info</p>
+                    <p className="font-[Poppins] text-[18px] lg:text-[24px] text-[#222]">Maths</p>
                 </div>
                 <div>
                     <p className="font-[Poppins] text-gray-600 ">Penatibus Et Magnis Dis<br /> Parturient</p>
@@ -56,7 +56,7 @@ const PhysicsCard = () => {
                 </div>
                 
                 <div>
-                    <p className="font-[Poppins] text-[18px] lg:text-[24px] text-[#222]">Request Info</p>
+                    <p className="font-[Poppins] text-[18px] lg:text-[24px] text-[#222]">Physics</p>
                 </div>
                 <div>
                     <p className="font-[Poppins] text-gray-600 ">Penatibus Et Magnis Dis<br /> Parturient</p>
@@ -76,7 +76,7 @@ const PhysicsCard = () => {
                 </div>
                 
                 <div>
-                    <p className="font-[Poppins] text-[18px] lg:text-[24px] text-[#222]">Request Info</p>
+                    <p className="font-[Poppins] text-[18px] lg:text-[24px] text-[#222]">Maths</p>
                 </div>
                 <div>
                     <p className="font-[Poppins] text-gray-600 ">Penatibus Et Magnis Dis<br /> Parturient</p>
